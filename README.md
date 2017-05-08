@@ -1,2 +1,2 @@
-# All-CryptoCurrncy-Markets-APIs
-Colletion of various Bitcoin/Altcoin markets' APIs
+# All-CryptoCurrency-Market-APIs
+Collection of various Bitcoin/Altcoin Markets' APIs
