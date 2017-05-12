@@ -1,8 +1,8 @@
 <h2>All-CryptoCurrency-Market-APIs</h2>
 
 <h3>Collection of various Bitcoin/Altcoin Markets' APIs</h3>
-**Pull requests are welcome**<br>
-
+*Pull requests are welcome*<br>
+<br>
 Currently Available Markets:
 
     BTC-E
