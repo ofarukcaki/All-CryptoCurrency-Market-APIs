@@ -47,6 +47,7 @@ Replace `Your Currency` with what you want( btc_usd for example, more can be fou
 `updated:` last update of cache.'<br>
 
 <br>
+
 - **BITFINEX**
 
 include '/markets/bitfinex.php'; `// Include BTC-E API`
@@ -67,6 +68,7 @@ Define your `parameter` with one of the following:<br>
 `timestamp`<br>
 
 <br>
+
 - **BITSTAMP**
 
 include '/markets/bitstamp.php'; `// Include Bitstamp API into project`
@@ -90,6 +92,7 @@ Define your `parameter` with one of the following:<br>
 
 
 <br>
+
 - **CEX.IO**
 
 include '/markets/cex.php'; `// Include CEX.IO API into project`
