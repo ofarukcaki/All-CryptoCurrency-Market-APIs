@@ -89,3 +89,23 @@ Define your `parameter` with one of the following:<br>
 `open: `	    First price of the day.<br>
 
 
+- **CEX.IO**
+
+include '/markets/cex.php'; `// Include CEX.IO API into project`
+
+$cex = new cex; `//Create new object `
+
+echo $cex->get('btc_usd','last'); `// Example result for last BTC price as US dollars`<br>
+`// More paramaters can be found on ce.io as same as other market examples above`
+
+Define your `parameter` with one of the following:<br>
+<br>
+`bid: `  highest buy order<br>
+`ask: `  lowest sell order<br>
+`low: `  last 24 hours price low<br>
+`high: `  last 24 hours price high<br>
+`last: `  last BTC price<br>
+`volume: `  last 24 hours volume<br>
+`volume30d: `  last 30 days volume<br>
+
+
