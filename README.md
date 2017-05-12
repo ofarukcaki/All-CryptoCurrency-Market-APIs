@@ -1,6 +1,7 @@
-All-CryptoCurrency-Market-APIs
+<h2>All-CryptoCurrency-Market-APIs</h2>
 
-Collection of various Bitcoin/Altcoin Markets' APIs
+<h3>Collection of various Bitcoin/Altcoin Markets' APIs</h3>
+** Pull requests are welcome **
 
 Currently Available Markets:
 
