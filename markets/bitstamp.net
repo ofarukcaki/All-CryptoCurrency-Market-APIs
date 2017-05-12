@@ -1,0 +1,13 @@
+<?php
+class bitstamp{
+    function get($symbol,$parameter){
+        $bitstampSource = 'https://www.bitstamp.net/api/v2/ticker/'.str_replace('_','',$symbol);
+        $bitstapJson = file_get_contents($bitstampSource);
+        $bitstamp = json_decode($bitstapJson);
+        //var_dump($bitstamp);
+        return $bitstamp->$parameter;
+    }
+}
+
+//$bitstamp = new bitstamp;
+//echo $bitstamp->get('btc_usd','high');
