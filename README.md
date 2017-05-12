@@ -8,12 +8,12 @@ Currently Available Markets:
     BTC-E
     Bitfinex
     Bitstamp
+    Cex.io
 
 Markets will be added soon:
 
     Poloniex
     Huobi
-    Cex.io
     Paribu
     Coinbase
     Kraken
@@ -46,7 +46,7 @@ Replace `Your Currency` with what you want( btc_usd for example, more can be fou
 `sell:` sell price.<br>
 `updated:` last update of cache.'<br>
 
-
+<br>
 - **BITFINEX**
 
 include '/markets/bitfinex.php'; `// Include BTC-E API`
@@ -66,7 +66,7 @@ Define your `parameter` with one of the following:<br>
 `volume`<br>
 `timestamp`<br>
 
-
+<br>
 - **BITSTAMP**
 
 include '/markets/bitstamp.php'; `// Include Bitstamp API into project`
@@ -89,6 +89,7 @@ Define your `parameter` with one of the following:<br>
 `open: `	    First price of the day.<br>
 
 
+<br>
 - **CEX.IO**
 
 include '/markets/cex.php'; `// Include CEX.IO API into project`
