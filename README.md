@@ -36,13 +36,13 @@ echo $btce->get('Your Currency' , 'Data');
 
 Replace `Your Currency` with what you want( btc_usd for example, more can be found at btc-e.com) And replace `Data` with one of the following: 
 
-`high`: maximum price.
- `low:` minimum price.
-  `avg:` average price.
-`vol_cur:` trade volume in currency.
-`last:` the price of the last trade.
-`buy:` buy price.
-`sell:` sell price.
-`updated:` last update of cache.'
+`high`: maximum price.<br>
+ `low:` minimum price.<br>
+  `avg:` average price.<br>
+`vol_cur:` trade volume in currency.<br>
+`last:` the price of the last trade.<br>
+`buy:` buy price.<br>
+`sell:` sell price.<br>
+`updated:` last update of cache.'<br>
 
 
