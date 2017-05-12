@@ -7,11 +7,11 @@ Currently Available Markets:
 
     BTC-E
     Bitfinex
+    Bitstamp
 
 Markets will be added soon:
 
     Poloniex
-    Bitstamp
     Huobi
     Cex.io
     Paribu
@@ -65,3 +65,27 @@ Define your `parameter` with one of the following:<br>
 `high`<br>
 `volume`<br>
 `timestamp`<br>
+
+
+- **BITSTAMP**
+
+include '/markets/bitstamp.php'; `// Include Bitstamp API into project`
+
+$bitstamp = new bitstamp; `//Create new object `
+
+echo $bitstamp->get('btc_usd','last'); `// Example result for last BTC price as US dollars`<br>
+$var = $bitstamp->get('xrp_btc','volume'); `// or assign XRP/BTC Volume to a variable instead of print `
+`// More paramaters can be found on bitstamp.net as same as other market examples above`
+
+Define your `parameter` with one of the following:<br>
+`last`	    Last BTC price.<br>
+`high`  	Last 24 hours price high.<br>
+`low`	    Last 24 hours price low.<br>
+`vwap`	    Last 24 hours volume weighted average price.<br>
+`volume`	Last 24 hours volume.<br>
+`bid`	    Highest buy order.<br>
+`ask`	    Lowest sell order.<br>
+`timestamp`	Unix timestamp date and time.<br>
+`open`	    First price of the day.<br>
+
+
