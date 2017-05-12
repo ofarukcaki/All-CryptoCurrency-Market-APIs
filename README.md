@@ -5,12 +5,12 @@ Collection of various Bitcoin/Altcoin Markets' APIs
 Currently Available Markets:
 
     BTC-E
+    Bitfinex
 
 Markets will be added soon:
 
     Poloniex
     Bitstamp
-    Bitfinex
     Huobi
     Cex.io
     Paribu
@@ -46,3 +46,21 @@ Replace `Your Currency` with what you want( btc_usd for example, more can be fou
 `updated:` last update of cache.'<br>
 
 
+- **BITFINEX**
+
+include '/markets/bitfinex.php'; `// Include BTC-E API`
+
+$bitfinex = new bitfinex;  `//Create new object `
+
+echo $bitfinex->get('symbol' , 'parameter'); <br>
+Replace `symbol` with your currency set, ex: `btc_usd`, `zec_usd` , `ltc_btc`,`eth_btc` (All supported transformatins can be found on bitfinex.com)
+
+Define your `parameter` with one of the following:<br>
+`mid`<br>
+`bid`<br>
+`ask`<br>
+`last_price`<br>
+`low`<br>
+`high`<br>
+`volume`<br>
+`timestamp`<br>
