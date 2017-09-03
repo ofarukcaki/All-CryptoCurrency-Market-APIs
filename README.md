@@ -2,9 +2,11 @@
 <h2>All-CryptoCurrency-Market-APIs</h2>
 
 <h3>Collection of various Bitcoin/Altcoin Markets' APIs</h3>
-``
-<h3>This project is no longer developed.</h3>
-<h4>New ASP.NET Core Web API will be available soon. You can able to deploy and use it on your own server</h4>``
+
+**<h3>This project is no longer developed.</h3>
+<h4>New ASP.NET Core Web API will be available soon. You can able to deploy and use it on your own server</h4>**
+
+
 *Pull requests are welcome*<br>
 <br>
 Currently Available Markets:
